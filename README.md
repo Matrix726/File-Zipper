@@ -12,6 +12,7 @@ This project supports two functions:
 # Commands to run the code
 
 g++ encode.cpp huffman.cpp -o encode
+
 ./encode inputFile.txt compressed.bin
 
 g++ decode.cpp huffman.cpp -o decode
