@@ -16,4 +16,5 @@ g++ encode.cpp huffman.cpp -o encode
 ./encode inputFile.txt compressed.bin
 
 g++ decode.cpp huffman.cpp -o decode
+
 ./decode compressed.bin output.txt
